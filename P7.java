@@ -31,4 +31,9 @@ class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+    // Polymorphism
+    public void describeBook() {
+        System.out.println("Book : " + title + " by " + author);
+    }
 }
