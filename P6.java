@@ -37,4 +37,9 @@ public static void main(String[] args) {
     students.add(new Student("David", 78));
     students.add(new Student("Kitty", 92));
     students.add(new Student("Eve", 88));
+
+    int totalMarks = 0;
+    for (Student student : students) {
+        totalMarks += student.getMarks();
+    }
 }
