@@ -8,4 +8,11 @@
  */
 
 import java.util.ArrayList;
-import java.util.List;s
+import java.util.List;
+
+class Product {
+    private String name;
+    private double price;
+    private int quantity;
+
+}
