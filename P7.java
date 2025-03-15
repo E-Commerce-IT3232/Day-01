@@ -83,3 +83,12 @@ class EBook extends Book {
         System.out.println("File Size: " + fileSize + " MB");
     }
 }
+
+public class P7 {
+    public static void main(String[] args) {
+        Book printedBook = new PrintedBook("Harry Potter", "J.K. Rowling", 500);
+        Book eBook = new EBook("Digital Transformation", "John Doe", 2.5);
+        Book audioBook = new AudioBook("The Silent Patient", "Alex Michaelides", 360);
+
+    }
+}
