@@ -7,6 +7,27 @@ input 13
 output 6 5 4 3 2 1 7 13 12 11 10 9 8
 */
 
-public class P5 {
+import java.util.Scanner;
 
+public class P5 {
+    public static void main(String arg[]) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int midpoint = num / 2;
+
+        for (int i = midpoint; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+
+        System.out.print(midpoint + 1 + " ");
+
+        for (int i = num; i > midpoint + 1; i--) {
+            System.out.print(i + " ");
+        }
+
+        scanner.close();
+    }
 }
