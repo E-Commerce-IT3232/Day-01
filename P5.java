@@ -31,3 +31,12 @@ public class P5 {
         scanner.close();
     }
 }
+
+/*
+ * C:\Users\DELL\Desktop\E Commerce\Day-01>java P5
+ * Enter a number: 9
+ * 4 3 2 1 5 9 8 7 6
+ * C:\Users\DELL\Desktop\E Commerce\Day-01>java P5
+ * Enter a number: 13
+ * 6 5 4 3 2 1 7 13 12 11 10 9 8
+ */
