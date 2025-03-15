@@ -61,3 +61,11 @@ class PrintedBook extends Book {
     }
 
 }
+
+class EBook extends Book {
+    private double fileSize;
+
+    public EBook(String title, String author, double fileSize) {
+        super(title, author);
+        this.fileSize = fileSize;
+    }
