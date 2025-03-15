@@ -89,3 +89,20 @@ class RetailStore {
     public RetailStore() {
         this.products = new ArrayList<>();
     }
+
+    public void addProduct(Product product) {
+        products.add(product);
+    }
+
+    public void editProduct(String name, String newName, double newPrice, int newQuantity) {
+        for (Product product : products) {
+            if (product.getName().equals(name)) {
+                product.setName(newName);
+                product.setPrice(newPrice);
+                product.setQuantity(newQuantity);
+                System.out.println("Product updated: " + product.getName());
+                return;
+            }
+        }
+        System.out.println("Product not found.");
+    }
