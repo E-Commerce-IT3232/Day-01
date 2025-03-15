@@ -129,3 +129,33 @@ class RetailStore {
         }
     }
 }
+
+public class P7{
+    public static void main(String[] args) {
+        // Create RetailStore object
+        RetailStore store = new RetailStore();
+
+        // Add products to the store
+        store.addProduct(new Fruit("Apple", 1.99, 100));
+        store.addProduct(new Vegetable("Carrot", 0.99, 50));
+        store.addProduct(new Grocery("Rice", 2.49, 200));
+
+        // Display all products
+        store.displayProducts();
+
+        // Edit a product
+        store.editProduct("Apple", "Green Apple", 2.49, 120);
+
+        // Display products after editing
+        System.out.println("\nAfter editing:");
+        store.displayProducts();
+
+        // Delete a product
+        store.deleteProduct("Rice");
+
+        // Display products after deletion
+        System.out.println("\nAfter deleting Rice:");
+        store.displayProducts();
+    }
+}
+}
