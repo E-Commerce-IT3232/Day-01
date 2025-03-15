@@ -28,18 +28,20 @@ class Student {
 
 public class P6 {
 
-}
+    public static void main(String[] args) {
+        List<Student> students = new ArrayList<>();
+        students.add(new Student("Ann", 85));
+        students.add(new Student("Taylor", 90));
+        students.add(new Student("David", 78));
+        students.add(new Student("Kitty", 92));
+        students.add(new Student("Eve", 88));
 
-public static void main(String[] args) {
-    List<Student> students = new ArrayList<>();
-    students.add(new Student("Ann", 85));
-    students.add(new Student("Taylor", 90));
-    students.add(new Student("David", 78));
-    students.add(new Student("Kitty", 92));
-    students.add(new Student("Eve", 88));
+        int totalMarks = 0;
+        for (Student student : students) {
+            totalMarks += student.getMarks();
+        }
 
-    int totalMarks = 0;
-    for (Student student : students) {
-        totalMarks += student.getMarks();
+        double averageMarks = totalMarks / (double) students.size();
+        System.out.println("The average marks of the students is: " + averageMarks);
     }
 }
