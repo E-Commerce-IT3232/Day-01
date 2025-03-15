@@ -46,4 +46,12 @@ class PrintedBook extends Book {
         this.pages = pages;
     }
 
+    public int getPages() {
+        return pages;
+    }
+
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
+
 }
