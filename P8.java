@@ -82,3 +82,10 @@ class Grocery extends Product {
         System.out.println("Grocery - " + getName() + ", Price: " + getPrice() + ", Quantity: " + getQuantity());
     }
 }
+
+class RetailStore {
+    private List<Product> products;
+
+    public RetailStore() {
+        this.products = new ArrayList<>();
+    }
