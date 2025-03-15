@@ -112,5 +112,7 @@ public class P7 {
         Book eBook = new EBook("Digital Transformation", "John Doe", 2.5);
         Book audioBook = new AudioBook("The Silent Patient", "Alex Michaelides", 360);
 
+        Book[] libraryBooks = { printedBook, eBook, audioBook };
+
     }
 }
