@@ -69,3 +69,4 @@ class EBook extends Book {
         super(title, author);
         this.fileSize = fileSize;
     }
+}
