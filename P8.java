@@ -106,3 +106,14 @@ class RetailStore {
         }
         System.out.println("Product not found.");
     }
+
+    public void deleteProduct(String name) {
+        for (Product product : products) {
+            if (product.getName().equals(name)) {
+                products.remove(product);
+                System.out.println("Product deleted: " + name);
+                return;
+            }
+        }
+        System.out.println("Product not found.");
+    }
