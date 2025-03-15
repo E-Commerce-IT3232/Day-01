@@ -114,5 +114,9 @@ public class P7 {
 
         Book[] libraryBooks = { printedBook, eBook, audioBook };
 
+        for (Book book : libraryBooks) {
+            book.describeBook();
+            System.out.println();
+        }
     }
 }
