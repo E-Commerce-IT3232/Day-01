@@ -37,3 +37,13 @@ class Book {
         System.out.println("Book : " + title + " by " + author);
     }
 }
+
+class PrintedBook extends Book {
+    private int pages;
+
+    public PrintedBook(String title, String author, int pages) {
+        super(title, author);
+        this.pages = pages;
+    }
+
+}
