@@ -130,7 +130,7 @@ class RetailStore {
     }
 }
 
-public class P7{
+public class P7 {
     public static void main(String[] args) {
         // Create RetailStore object
         RetailStore store = new RetailStore();
@@ -157,5 +157,4 @@ public class P7{
         System.out.println("\nAfter deleting Rice:");
         store.displayProducts();
     }
-}
 }
