@@ -71,3 +71,14 @@ class Vegetable extends Product {
         System.out.println("Vegetable - " + getName() + ", Price: " + getPrice() + ", Quantity: " + getQuantity());
     }
 }
+
+class Grocery extends Product {
+    public Grocery(String name, double price, int quantity) {
+        super(name, price, quantity);
+    }
+
+    @Override
+    public void displayProduct() {
+        System.out.println("Grocery - " + getName() + ", Price: " + getPrice() + ", Quantity: " + getQuantity());
+    }
+}
