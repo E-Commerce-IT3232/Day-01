@@ -60,3 +60,14 @@ class Fruit extends Product {
         System.out.println("Fruit - " + getName() + ", Price: " + getPrice() + ", Quantity: " + getQuantity());
     }
 }
+
+class Vegetable extends Product {
+    public Vegetable(String name, double price, int quantity) {
+        super(name, price, quantity);
+    }
+
+    // @Override
+    public void displayProduct() {
+        System.out.println("Vegetable - " + getName() + ", Price: " + getPrice() + ", Quantity: " + getQuantity());
+    }
+}
