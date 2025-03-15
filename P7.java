@@ -84,11 +84,30 @@ class EBook extends Book {
     }
 }
 
+class AudioBook extends Book {
+    private int duration;
+
+    public AudioBook(String title, String author, int duration) {
+        super(title, author);
+        this.duration = duration;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
+    public void describeBook() {
+        super.describeBook();
+        System.out.println("Duration: " + duration + " minutes");
+    }
+}
+
 public class P7 {
     public static void main(String[] args) {
-        Book printedBook = new PrintedBook("Harry Potter", "J.K. Rowling", 500);
-        Book eBook = new EBook("Digital Transformation", "John Doe", 2.5);
-        Book audioBook = new AudioBook("The Silent Patient", "Alex Michaelides", 360);
 
     }
 }
