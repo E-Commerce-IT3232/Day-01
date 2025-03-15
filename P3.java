@@ -20,3 +20,16 @@ public class P3 {
         sc.close();
     }
 }
+
+/*
+ * C:\Users\DELL\Desktop\E Commerce\Day-01>java P3
+ * Enter the first number :
+ * 5
+ * Enter the second number :
+ * 9
+ * 9
+ * 8
+ * 7
+ * 6
+ * 5
+ */
