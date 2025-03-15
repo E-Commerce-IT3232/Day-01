@@ -54,4 +54,10 @@ class PrintedBook extends Book {
         this.pages = pages;
     }
 
+    // @Override
+    public void describeBook() {
+        super.describeBook(); // Call the parent class method
+        System.out.println("Pages: " + pages);
+    }
+
 }
