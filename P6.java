@@ -45,3 +45,10 @@ public class P6 {
         System.out.println("The average marks of the students is: " + averageMarks);
     }
 }
+
+/*
+ * C:\Users\DELL\Desktop\E Commerce\Day-01>javac P6.java
+ * 
+ * C:\Users\DELL\Desktop\E Commerce\Day-01>java P6
+ * The average marks of the students is: 86.6
+ */
