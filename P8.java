@@ -45,4 +45,7 @@ class Product {
         this.quantity = quantity;
     }
 
+    public void displayProduct() {
+        System.out.println("Product: " + name + ", Price: " + price + ", Quantity: " + quantity);
+    }
 }
