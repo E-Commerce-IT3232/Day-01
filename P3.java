@@ -1,3 +1,5 @@
+
+//print the numbers in reverse
 import java.util.Scanner;
 
 public class P3 {
