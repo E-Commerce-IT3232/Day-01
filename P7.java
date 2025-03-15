@@ -77,4 +77,9 @@ class EBook extends Book {
     public void setFileSize(double fileSize) {
         this.fileSize = fileSize;
     }
+
+    public void describeBook() {
+        super.describeBook();
+        System.out.println("File Size: " + fileSize + " MB");
+    }
 }
