@@ -69,4 +69,12 @@ class EBook extends Book {
         super(title, author);
         this.fileSize = fileSize;
     }
+
+    public double getFileSize() {
+        return fileSize;
+    }
+
+    public void setFileSize(double fileSize) {
+        this.fileSize = fileSize;
+    }
 }
