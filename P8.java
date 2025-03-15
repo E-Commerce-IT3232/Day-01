@@ -117,3 +117,15 @@ class RetailStore {
         }
         System.out.println("Product not found.");
     }
+
+    public void displayProducts() {
+        if (products.isEmpty()) {
+            System.out.println("No products available.");
+        } else {
+            System.out.println("Available Products:");
+            for (Product product : products) {
+                product.displayProduct();
+            }
+        }
+    }
+}
